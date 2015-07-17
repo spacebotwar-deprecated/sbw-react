@@ -3,15 +3,15 @@
 var React = require('react');
 
 
-var About = React.createClass({
+var Login = React.createClass({
   render() {
     return (
       <div className='about'>
-        <h1>About Page</h1>
+        <h1>Login Page</h1>
         <p>This page demostrates a stripped template that doesn't use either the header nor the footer</p>
       </div>
     )
   }
 });
 
-module.exports = About;
+module.exports = Login;
